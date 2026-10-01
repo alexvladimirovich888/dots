@@ -26,7 +26,7 @@ export const TopBar: React.FC<TopBarProps> = ({
   const [tempName, setTempName] = useState(projectName);
   const [copied, setCopied] = useState(false);
 
-  const CA_ADDRESS = 'soon';
+  const CA_ADDRESS = 'CrJPSvj625TnPdWS42aG5ybMcHeFvnNqq5AExVespump';
 
   const handleCopyCa = () => {
     navigator.clipboard.writeText(CA_ADDRESS);
@@ -54,9 +54,9 @@ export const TopBar: React.FC<TopBarProps> = ({
       {/* Left: Logo image + DotsSolver text */}
       <div className="flex items-center gap-2.5 min-w-[180px] shrink-0">
         <img
-          src="/dots/dot1.png"
+          src="/logo-dots.png"
           alt="Dots Logo"
-          className="h-8 w-auto object-contain max-h-[36px] rounded-md"
+          className="h-10 w-auto object-contain max-h-[40px]"
           loading="eager"
           decoding="async"
         />
