@@ -26,7 +26,7 @@ export const TopBar: React.FC<TopBarProps> = ({
   const [tempName, setTempName] = useState(projectName);
   const [copied, setCopied] = useState(false);
 
-  const CA_ADDRESS = 'CrJPSvj625TnPdWS42aG5ybMcHeFvnNqq5AExVespump';
+  const CA_ADDRESS = 'E7pYboUTfV3CuXiqeAfRx8NXbxU6gMwRp4KpbJwLpump';
 
   const handleCopyCa = () => {
     navigator.clipboard.writeText(CA_ADDRESS);
